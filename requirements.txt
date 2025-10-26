@@ -1,0 +1,20 @@
+flask
+pypdf
+python-dotenv
+gunicorn
+# LangChain ecosystem
+langchain
+langchain-community
+langchain-openai
+langchain-experimental
+langchain-pinecone
+langchain-huggingface
+
+# Pinecone
+pinecone-client[grpc]
+
+# Compatible versions to avoid conflicts
+sentence-transformers==2.6.1
+huggingface-hub==0.30.2
+
+

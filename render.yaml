@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: medical-chatbot
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PINECONE_API_KEY
+        value: pcsk_4mjmKP_569DnLkDkt6pU8aK3jJfUQuruR8WPnEeFB2CzRERJu4SsjL1DyRy4bdqQvAnRCy
+      - key: GROQ_API_KEY
+        value: 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
